@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiquetas Semánticas - WebTech Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="revista-container">
+        <header class="magazine-header">
+            <h2>WebTech Magazine</h2>
+            <span class="page-number">Pág. 7 / 10</span>
+        </header>
+
+        <main class="magazine-content">
+            <h1>Etiquetas Semánticas: Section y Hgroup</h1>
+            <p>HTML5 introdujo etiquetas semánticas que aportan significado estructural al código, facilitando la lectura tanto para los navegadores como para los desarrolladores.</p>
+            
+            <h2>La etiqueta &lt;section&gt;</h2>
+            <p>Representa una sección genérica de contenido en un documento, la cual generalmente incluye un encabezado. Se usa para agrupar bloques de contenido relacionados temáticamente.</p>
+            <div class="code-box">
+                &lt;section&gt;<br>
+                &nbsp;&nbsp;&lt;h2&gt;Últimas Tecnologías&lt;/h2&gt;<br>
+                &nbsp;&nbsp;&lt;p&gt;Contenido de la sección...&lt;/p&gt;<br>
+                &lt;/section&gt;
+            </div>
+
+            <h2>La etiqueta &lt;hgroup&gt;</h2>
+            <p>Se utiliza para agrupar un conjunto de elementos de encabezado (como &lt;h1&gt; a &lt;h6&gt;), combinando un título principal con subtítulos o descripciones alternativas.</p>
+            <div class="code-box">
+                &lt;hgroup&gt;<br>
+                &nbsp;&nbsp;&lt;h1&gt;Diseño Web Moderno&lt;/h1&gt;<br>
+                &nbsp;&nbsp;&lt;p&gt;Guía práctica de maquetación y CSS&lt;/p&gt;<br>
+                &lt;/hgroup&gt;
+            </div>
+        </main>
+
+        <footer class="magazine-footer">
+            <a href="selectores.html" id="prev-page" class="btn-nav btn-secondary">&larr; Anterior</a>
+            <a href="posicion.html" id="next-page" class="btn-nav">Siguiente &rarr;</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

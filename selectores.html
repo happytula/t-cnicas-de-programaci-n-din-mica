@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores CSS - WebTech Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="revista-container">
+        <header class="magazine-header">
+            <h2>WebTech Magazine</h2>
+            <span class="page-number">Pág. 6 / 10</span>
+        </header>
+
+        <main class="magazine-content">
+            <h1>Selectores CSS</h1>
+            <p>Los selectores son los patrones que se utilizan para seleccionar los elementos HTML a los que se les aplicarán las reglas de estilo. Constituyen la base fundamental para aplicar diseño de forma precisa.</p>
+            
+            <h2>Tipos de Selectores Principales:</h2>
+            <p><strong>1. Selector de Etiqueta:</strong> Selecciona todos los elementos que coincidan con el nombre de la etiqueta HTML.</p>
+            <div class="code-box">
+                p {<br>
+                &nbsp;&nbsp;color: #334155;<br>
+                }
+            </div>
+
+            <p><strong>2. Selector de Clase (.):</strong> Permite aplicar estilos a cualquier elemento que tenga asignado dicho atributo de clase.</p>
+            <div class="code-box">
+                .btn-nav {<br>
+                &nbsp;&nbsp;background-color: #2563eb;<br>
+                }
+            </div>
+
+            <p><strong>3. Selector de ID (#):</strong> Selecciona un único elemento específico basado en su identificador único (debe ser único en todo el documento).</p>
+            <div class="code-box">
+                #principal {<br>
+                &nbsp;&nbsp;font-weight: bold;<br>
+                }
+            </div>
+        </main>
+
+        <footer class="magazine-footer">
+            <a href="css.html" id="prev-page" class="btn-nav btn-secondary">&larr; Anterior</a>
+            <a href="html5.html" id="next-page" class="btn-nav">Siguiente &rarr;</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

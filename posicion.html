@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamiento Web - WebTech Magazine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="revista-container">
+        <header class="magazine-header">
+            <h2>WebTech Magazine</h2>
+            <span class="page-number">Pág. 8 / 10</span>
+        </header>
+
+        <main class="magazine-content">
+            <h1>Posicionamiento de Elementos Web</h1>
+            <p>La propiedad <code>position</code> en CSS determina cómo se posicionan y ubican los elementos dentro del flujo del documento visual, permitiendo un control exacto de la interfaz.</p>
+            
+            <h2>Tipos de Posicionamiento:</h2>
+            <p><strong>1. Static (Estático):</strong> Es el comportamiento por defecto. Los elementos siguen el flujo normal de la página sin propiedades de desplazamiento.</p>
+            <div class="code-box">
+                .caja {<br>
+                &nbsp;&nbsp;position: static;<br>
+                }
+            </div>
+
+            <p><strong>2. Relative (Relativo):</strong> Posiciona el elemento en relación con su posición original en el flujo, permitiendo moverlo con <code>top</code>, <code>left</code>, etc.</p>
+            
+            <p><strong>3. Absolute (Absoluto):</strong> Saca al elemento del flujo normal y lo posiciona en relación con su ancestro posicionado más cercano.</p>
+            
+            <p><strong>4. Fixed (Fijo):</strong> Fija el elemento con respecto a la ventana del navegador (viewport), por lo que permanece en su lugar al hacer scroll.</p>
+            
+            <p><strong>5. Sticky (Adhesivo):</strong> Alterna entre relativo y fijo dependiendo de la posición del usuario al desplazar la página.</p>
+        </main>
+
+        <footer class="magazine-footer">
+            <a href="html5.html" id="prev-page" class="btn-nav btn-secondary">&larr; Anterior</a>
+            <a href="conclusion.html" id="next-page" class="btn-nav">Siguiente &rarr;</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
